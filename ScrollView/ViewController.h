@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *ScrollView;
+
+@property (nonatomic, strong) UIButton *enableScroll;
+@property (nonatomic, strong) UIButton *disableScroll;
+
+@property (nonatomic, strong) UITableView *tableView1;
+@property (nonatomic, strong) UITableView *tableView2;
+@property (nonatomic, strong) UITableView *tableView3;
+@property (nonatomic, strong) UITableView *tableView4;
+@property (nonatomic, strong) UITableView *tableView5;
+
+@property (nonatomic, strong) NSArray *array;
 
 @end

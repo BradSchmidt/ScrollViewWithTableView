@@ -456,6 +456,7 @@
 				A228AF651AB5573500BA0432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A228AF661AB5573500BA0432 /* Build configuration list for PBXNativeTarget "ScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				A228AF681AB5573500BA0432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
